@@ -1,1 +1,1 @@
-# Control-panel
+# Control-pane
