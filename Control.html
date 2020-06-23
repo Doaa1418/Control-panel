@@ -1,7 +1,14 @@
 <!DOCTYPE html> 
+
 <html>
 <head>
-
+  
+ <meta charset="UTF-8">
+ <link rel="icon" 
+   type="image/png" 
+   href="/icon/Robot-icon.png"
+   size="32x32"  
+ >
 <title>Control</title>
 
 <style>
@@ -10,60 +17,66 @@
  #S1{
 
      background-color :red;
-     width: 120px;
-     position:fixed;
-     top:200px;
-     left:255px;
-     border-color: rgba(231,233, 237);
-     border-style: outset;     
+     width:100px;
+     height:20px;
+     position:absolute;
+     top:250px;
+     left:300px; 
+     border: 2px  outset rgba(231,233, 237);
  }
 /*style Left button */ 
  #L1{
 
      background-color :rgb(230, 230, 230);
-     width: 120px;
-     position:fixed;
-     top:201px;
-     left:130px;
-     border: 1px outset rgba(207, 205, 201, 0.877);
+     width:100px;
+     height:20px;
+     position:absolute;
+     top:250px;
+     left:180px;
+     border: 2px outset rgba(207, 205, 201, 0.877);
      
 }
 /*style Right button */ 
 #R1{
   
     background-color :rgb(230, 230, 230);
-    width: 120px;
-    position:fixed;
-    top:201px;
-    left:380px;
-    border: 1px outset rgba(207, 205, 201, 0.877);
+    width:100px;
+    height:20px;
+    position: absolute;
+    top:250px;
+    left:420px;
+    border: 2px outset rgba(207, 205, 201, 0.877);
    
 }
 /*style Backwards button */ 
 #B1{
     background-color :rgb(230, 230, 230);
-    width:120px;
-    position: fixed;
-    top:230px;
-    left:255px;  
-    border: 1px outset rgba(207, 205, 201, 0.877);
+    width:100px;
+    height:20px;
+    position:absolute;
+    top:280px;
+    left:300px;  
+    border: 2px outset rgba(207, 205, 201, 0.877);
+    
 }
 /*style forwards button */ 
 #F1{
 
     background-color :rgb(230, 230, 230);
-    width:120px;
-    position: fixed;
-    top:172px;
-    left:255px;
-    border: 1px outset rgba(207, 205, 201, 0.877);    
+    width:100px;
+    height:20px;
+    position:absolute;
+    top:220px;
+    left:300px;
+    border: 2px outset rgba(207, 205, 201, 0.877);    
 }
 
-body{
+#body1{
 
-  background:rgb(132, 165, 237);
-    
+  background:rgba(176, 196, 255, 0.973);
+ 
 }
+
 
 </style>
 
@@ -71,10 +84,11 @@ body{
 
 <! –– start contain page ––>
 
-<body>
+<body id="body1">
 
+  
 
-  <button id="L1" >Left</button> 
+  <button id="L1" ima="next.png" >Left</button> 
   <br/>
   
   <button id="R1">Right</button> 
